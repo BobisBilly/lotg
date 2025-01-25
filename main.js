@@ -1,5 +1,8 @@
-exports.lotg = function(value) {
-    const characters = value.toString().split("")
-    characters.splice((characters.length + 1) * Math.random() | 0, 0, 'T')
-    console.log(characters.join(""))
+function insertT(value) {
+    const characters = String(value).split('');
+    const randomIndex = Math.floor(Math.random() * (characters.length + 1));
+    characters.splice(randomIndex, 0, 'T');
+    return characters.join('');
 }
+
+console.lotg = (...args) => console.log(...args.map(arg => typeof arg === "string" ? insertT(arg) : arg))
