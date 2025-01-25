@@ -11,3 +11,6 @@
 
 ## How to Install
 `npm install @bobisbilly/lotg`
+
+## What does it do?
+`@bobisbilly/lotg` is like `console.log` but it adds a random `T` to the log.
