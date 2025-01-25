@@ -1,0 +1,19 @@
+{
+  "name": "@bobisbilly/lotg",
+  "version": "1.0.0",
+  "description": "Logs messages with a \"T\" in a random spot",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobisBilly/lotg.git"
+  },
+  "author": "BobisBilly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BobisBilly/lotg/issues"
+  },
+  "homepage": "https://github.com/BobisBilly/lotg#readme"
+}
