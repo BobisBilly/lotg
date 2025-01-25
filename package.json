@@ -1,6 +1,6 @@
 {
   "name": "@bobisbilly/lotg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Logs messages with a \"T\" in a random spot",
   "main": "main.js",
   "scripts": {
